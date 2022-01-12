@@ -6,11 +6,28 @@
 }
 .centrar-texto{
   text-align: center;
-  margin: 5px 0;
+  margin: 15px 0;
   padding: 0;
 }
 
+.color{
+  color: blue;
+}
+.imagen{
+  width: 40vh;
+  height: auto;
+}
 
+
+.owl-item{
+  display: flex;
+  justify-content: center;
+}
+
+.active{
+  display: flex;
+  justify-content: center;
+}
 /*Cambia letra y margin de las flechas*/
 span {
   font-size: 5vw;
