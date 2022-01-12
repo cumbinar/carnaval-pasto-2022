@@ -4,37 +4,27 @@
   margin: 0;
   padding: 0;
 }
-
-
 .centrar-texto{
   text-align: center;
   margin: 5px 0;
   padding: 0;
 }
-/*Cambia margen del contenedor marco_slider*/
 
-.marco_slider {
-  margin: 1%;
-}
-/*cambi tamaño imagen*/
-
-/* .imagen{
-  width: 50%;
-  height: auto;
-} */
-
-/*Termina margen del contenedor marco_slider*/
 
 /*Cambia letra y margin de las flechas*/
 span {
-  font-size: 8vw;
+  font-size: 5vw;
   color: rgb(3, 90, 250);
   text-align: center;
-  padding: 0% 5vw;
+  padding: 0% 3vw;
 }
 
 .owl-nav {
   text-align: center;
 }
 
+.owl-dots{
+ padding: 0;
+ height: 5px;
+}
 /*Termina cambio letra y margin de las flechas*/
