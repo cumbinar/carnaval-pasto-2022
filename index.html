@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Slider</title>
+    <link rel="shortcut icon" href="images/cumbifavicon.png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/js/all.min.js"></script>
+</head>
+
+<body>
+
+    <div class="marco_slider">
+        <section id="va-cumbi-art">
+            <h1 class="centrar-texto">CARNAVALES DE PASTO 2022</h1>
+            <div class="contenedor">
+                <!-- Set up your HTML -->
+
+                <div class="owl-carousel">
+                    <div class="imagen" > <img src="images/pasto-01.jpg" alt=""> </div>
+                    <div class="imagen" > <img src="images/pasto-02.jpg" alt=""> </div>
+                    <div class="imagen" > <img src="images/pasto-03.jpg" alt=""> </div>
+                    <div class="imagen" > <img src="images/pasto-04.jpg" alt=""> </div>
+                    <div class="imagen" > <img src="images/pasto-05.jpg" alt=""> </div>
+                    <div class="imagen" > <img src="images/pasto-06.jpg" alt=""> </div>
+                    <div class="imagen" > <img src="images/pasto-07.jpg" alt=""> </div>
+                    <div class="imagen" > <img src="images/pasto-08.jpg" alt=""> </div>
+                    <div class="imagen" > <img src="images/pasto-09.jpg" alt=""> </div>
+                    <div class="imagen" > <img src="images/pasto-10.jpg" alt=""> </div>
+                    <div class="imagen" > <img src="images/pasto-11.jpg" alt=""> </div>
+                    <div class="imagen" > <img src="images/pasto-12.jpg" alt=""> </div>
+                    <div class="imagen" > <img src="images/pasto-13.jpg" alt=""> </div>
+                    <div class="imagen" > <img src="images/pasto-14.jpg" alt=""> </div>
+                    <div class="imagen" > <img src="images/pasto-15.jpg" alt=""> </div>
+                    <div class="imagen" > <img src="images/pasto-16.jpg" alt=""> </div>
+                    <div class="imagen" > <img src="images/pasto-17.jpg" alt=""> </div>
+                    <div class="imagen" > <img src="images/pasto-18.jpg" alt=""> </div>
+                    <div class="imagen" > <img src="images/pasto-19.jpg" alt=""> </div>
+                    <div class="imagen" > <img src="images/pasto-20.jpg" alt=""> </div>
+                    <div class="imagen" > <img src="images/pasto-21.jpg" alt=""> </div>
+                    <div class="imagen" > <img src="images/pasto-22.jpg" alt=""> </div>
+                    <div class="imagen" > <img src="images/pasto-23.jpg" alt=""> </div>
+                    <div class="imagen" > <img src="images/pasto-24.jpg" alt=""> </div>
+                    <div class="imagen" > <img src="images/pasto-25.jpg" alt=""> </div>
+                    <div class="imagen" > <img src="images/pasto-26.jpg" alt=""> </div>
+                    <div class="imagen" > <img src="images/pasto-27.jpg" alt=""> </div>
+                    <div class="imagen" > <img src="images/pasto-28.jpg" alt=""> </div>
+                    <div class="imagen" > <img src="images/pasto-29.jpg" alt=""> </div>
+                    <div class="imagen" > <img src="images/pasto-30.jpg" alt=""> </div>
+                    <div class="imagen" > <img src="images/pasto-31.jpg" alt=""> </div>
+                    <div class="imagen" > <img src="images/pasto-32.jpg" alt=""> </div>
+                    <div class="imagen" > <img src="images/pasto-33.jpg" alt=""> </div>
+                    <div class="imagen" > <img src="images/pasto-34.jpg" alt=""> </div>
+                    <div class="imagen" > <img src="images/pasto-35jpg" alt=""> </div>
+                                  
+                </div>
+            </div>
+            <H2 class="centrar-texto">By Cumbi</H2>
+            <h5 class="centrar-texto">eguevara@uis.edu.co</h5>
+        </section>
+    </div>
+    <!--Inicia enlace js-->
+
+    <script src="owlcarousel/jquery.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 3
+                }
+            }
+        })
+        $('.menu-icon').click(function () {
+            $('header nav').slideToggle();
+        })
+    </script>
+    <!--Termina enlace js-->
+</body>
+
+</html>
